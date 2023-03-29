@@ -1,0 +1,228 @@
+body{
+  background-size: cover;
+  height: 100vh !important;
+  background-repeat: no-repeat;
+  background-image: url(https://static.vecteezy.com/ti/vecteur-libre/p1/6247478-fond-d-element-d-art-de-style-japonais-gratuit-vectoriel.jpg);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #140170;
+}
+#test{
+  color: #140170;
+  font: 5em sans-serif;
+}
+li {
+  float: left;
+
+}
+
+li.right {
+	float:right;
+}
+
+.img {
+	height:46px;
+}
+
+.img img{
+	width:20px;
+	height:20px;
+
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 26px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color:#ed8f02 ;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body{
+	background-color:#fcfaf7;
+	margin:0;
+	padding: 0;
+}
+header {
+	text-align:center;
+	color:#140170;
+	font-size: 4em;
+	font-family:Helvetica;
+	-webkit-text-stroke: 2px  #ed8f02;
+}
+
+.diamantContainer{
+  position: relative !important;
+  width: 33%;
+  top: 0!important;
+  margin: 0;
+}
+
+.image{
+  background-image: url("../img/diamant.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0% 10% 0% 10%;
+  top: 0;
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.image2{
+  background-image: url("../img/Xenoverse2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0% 10% 0% 10%;
+  width: 340px;
+  height: 450px;
+}
+.image3{
+  background-image: url("../img/platine.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0% 10% 0% 10%;
+  width: 340px;
+  height: 300px;
+}
+
+section{
+  display: inline-block;
+  margin: 5%;
+}
+
+.description{
+  background-image: url("../img/fond.png");
+  margin: 0% 10% 0% 10%;
+  line-height: 4;
+  font-size: .8em;
+  width: 100%;
+  height: 50px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  text-align: center;
+}
+
+#presentation{
+  text-align: center;
+  font-family: Helvetica;
+  font-size:9px;
+  border: 5px #ed8f02 solid ;
+  border-radius: 10px ;
+  background:white ;
+  background-color: #140170;
+  width: 50%;
+  margin: auto;
+}
+
+h1{
+  color:white
+}
+
+div.gallery {
+  margin: 40px;
+  border: 2px solid black;
+  border-radius: 20px;
+  float: left;
+  width: 300px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius: 0px;
+  background-image: url('fond.png');
+
+}
+
+
+div.desc {
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+  background-image: url('fond.png');
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+div.descriptionpokemond li{
+  display: block;
+  width:100px;
+  list-style-type: none;
+  padding-left: 16px;
+  color:white;
+  border:2px solid green;
+  background-color: red;
+}
+  div.descriptionpokemond li::before{
+    content: "🎮";
+    padding-right: 8px;
+    color: green;
+  }
+
+.test{
+  background-color: red;
+  display: block;
+  height: auto;
+}
+
+.containerDesc{
+  background-color: #140170;
+  width: 33%;
+  height: auto;
+  position: relative;
+}
+
+span{
+  font-weight: 600;
+  color: white;
+}
+
+.containerPrice{
+  background-color: #ed8f02;
+  width: 13%;
+  margin: 0%;
+}
