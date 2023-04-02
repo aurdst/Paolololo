@@ -1,8 +1,23 @@
 body{
   background-size: cover;
-  height: 100vh !important;
   background-repeat: no-repeat;
   background-image: url(https://static.vecteezy.com/ti/vecteur-libre/p1/6247478-fond-d-element-d-art-de-style-japonais-gratuit-vectoriel.jpg);
+  background-color:#fcfaf7;
+	margin:0;
+	padding: 0;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+  flex: 1;
+}
+
+footer{
+  flex-shrink: 0;
+  margin: 0!important;
+  background-color: #222229;
 }
 
 ul {
@@ -10,10 +25,11 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #140170;
+  background-color: #31303e;
+ 
 }
 #test{
-  color: #140170;
+  color: #31303e;
   font: 5em sans-serif;
 }
 li {
@@ -74,14 +90,9 @@ li.dropdown {
   display: block;
 }
 
-body{
-	background-color:#fcfaf7;
-	margin:0;
-	padding: 0;
-}
 header {
 	text-align:center;
-	color:#140170;
+	color:#31303e;
 	font-size: 4em;
 	font-family:Helvetica;
 	-webkit-text-stroke: 2px  #ed8f02;
@@ -89,9 +100,13 @@ header {
 
 .diamantContainer{
   position: relative !important;
-  width: 33%;
-  top: 0!important;
-  margin: 0;
+  width: 340px;
+  display: inline-block;
+  margin: auto;
+}
+
+.containerMain{
+  width: 100%;
 }
 
 .image{
@@ -101,8 +116,15 @@ header {
   margin: 0% 10% 0% 10%;
   top: 0;
   position: relative;
-  width: 100%;
+  width: 340px;
   height: 300px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.cards_game{
+  display: inline-block;
+  margin: 5%;
 }
 
 .image2{
@@ -120,11 +142,6 @@ header {
   margin: 0% 10% 0% 10%;
   width: 340px;
   height: 300px;
-}
-
-section{
-  display: inline-block;
-  margin: 5%;
 }
 
 .description{
@@ -146,7 +163,7 @@ section{
   border: 5px #ed8f02 solid ;
   border-radius: 10px ;
   background:white ;
-  background-color: #140170;
+  background-color: #31303e;
   width: 50%;
   margin: auto;
 }
@@ -204,16 +221,23 @@ div.descriptionpokemond li{
   }
 
 .test{
-  background-color: red;
   display: block;
   height: auto;
 }
 
 .containerDesc{
-  background-color: #140170;
+  color: white;
+  background-color: #31303e;
+  display: inline-block;
   width: 33%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 15px;
   height: auto;
   position: relative;
+  border-radius: 30px;
 }
 
 span{
@@ -222,7 +246,253 @@ span{
 }
 
 .containerPrice{
-  background-color: #ed8f02;
+  background-color: #e5a492;
+  margin: 5%;
+  box-shadow: 3px 3px 3px #333333;
+  position: absolute;
+  display: inline-block;
+  padding: 3%;
+  border-radius: 30px;
   width: 13%;
-  margin: 0%;
+}
+
+a{
+  color: black;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+.footer{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  bottom: 0px !important;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer p{
+  color: white;
+}
+
+.section_collab{
+  text-align: center;
+  position: relative;
+  top: 30px;
+  width: 30%;
+  height: 300px;
+  margin: 3% 9.6%;
+  background-color: #F5F5F5;
+  border-radius: 20px;
+  display: inline-block;
+  animation: slideInTop 1.6s ease-in-out;
+}
+
+.pict_avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  top: 20%;
+  background-color: #222229;
+}
+
+.section_collab h3{
+  position: relative;
+  top: 20%;
+}
+
+.section_collab p{
+  position: relative;
+  top: 20%;
+}
+
+.form{
+  width: 70%;
+  display: block;
+  margin: 5% auto;
+  position: relative;
+  text-align: center;
+  background-color: #F5F5F5;
+  border-radius: 20px;
+  padding: 5%;
+  animation: slideInTop 1.6s ease-in-out;
+}
+
+.bg_mentions{
+  padding: 3%;
+  width: 70%;
+  background-color: #F5F5F5;
+  margin: 3% auto;
+  display: block;
+  animation: slideInRight 1s ease-in-out;
+}
+
+.bg_mentions h1 {
+  color: #222229;
+  animation: slideInRight 1.6s ease-in-out;
+}
+
+.bg_mentions img {
+  color: #222229;
+  animation: slideInRight 2.5s ease-in-out;
+}
+
+.bg_mentions h2 {
+  color: #222229;
+  animation: slideInRight 2.5s ease-in-out;
+}
+
+.bg_mentions p {
+  color: #222229;
+  animation: slideInRight 2.6s ease-in-out;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* BTN CLASS */
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 2%;
+  color: #fff;
+  background-color: #222229;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #3f3f46;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* FORM CLASS */
+
+.form {
+  max-width: 500px;
+  margin: 5% auto;
+}
+
+.form-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+.form-label {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.form-input,
+.form-textarea {
+  display: block;
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255,255,255,0.5);
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: none;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.form-textarea {
+  height: 150px;
+  resize: none;
+}
+
+.form-submit {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #222229;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.form-submit:hover {
+  background-color: #3f3f46;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.form-submit:focus {
+  outline: none;
+}
+
+.form-submit:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 }
